@@ -1,5 +1,5 @@
 """
-ASGI config for pexelscloe project.
+ASGI config for pexelsclone project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pexelscloe.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pexelsclone.settings')
 
 application = get_asgi_application()
